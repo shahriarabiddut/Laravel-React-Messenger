@@ -17,19 +17,20 @@ Welcome to **Laravel React Messenger App** Repository.
 -   [Emoji Picker React](https://www.npmjs.com/package/emoji-picker-react).
 -   [React Mark Down](https://www.npmjs.com/package/react-markdown).
 -   [HeadlessUI](url).
--   Command : npm install @headlessui/react @heroicons/react daisyui emoji-picker-react react-markdown uuid
+-   Command : `npm install @headlessui/react @heroicons/react daisyui emoji-picker-react react-markdown uuid`
 -   Laravel Reverb : Reverb is a first-party WebSocket server for Laravel applications, bringing real-time communication between client and server directly to your fingertips.
--   Command : php artisan install:broadcasting -> yes -> yes
+-   Command : `php artisan install:broadcasting` -> `yes` -> `yes`
 
 ## Database
 
--   php artisan make:model ModelName -m (Created Eloquent Models with Database Table Blueprint)
+-   `php artisan make:model ModelName -m` (Created Eloquent Models with Database Table Blueprint)
 -   Defined Relations in public functions inside Models
+-   `php artisan migrate:fresh --seed` ( Drop all existing tables. Run all migration files to recreate the tables. Execute the seeders defined in the DatabaseSeeder class to repopulate data)
 
 ## Project Timeline
 
 -   All The Necessary Package Installed
--   Generating Models
+-   Generating Models,Tables,Factories,Seeders.
 
 ## Laravel Sponsors
 
