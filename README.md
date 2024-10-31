@@ -2,7 +2,7 @@
 
 Welcome to **Laravel React Messenger App** Repository.
 
-## TEchnology Stack
+## Technology Stack
 
 -   Laravel
 -   React
@@ -17,13 +17,19 @@ Welcome to **Laravel React Messenger App** Repository.
 -   [Emoji Picker React](https://www.npmjs.com/package/emoji-picker-react).
 -   [React Mark Down](https://www.npmjs.com/package/react-markdown).
 -   [HeadlessUI](url).
--   Command 1 : npm install @headlessui/react @heroicons/react daisyui emoji-picker-react react-markdown uuid
+-   Command : npm install @headlessui/react @heroicons/react daisyui emoji-picker-react react-markdown uuid
 -   Laravel Reverb : Reverb is a first-party WebSocket server for Laravel applications, bringing real-time communication between client and server directly to your fingertips.
--   php artisan install:broadcasting -> yes -> yes
+-   Command : php artisan install:broadcasting -> yes -> yes
+
+## Database
+
+-   php artisan make:model ModelName -m (Created Eloquent Models with Database Table Blueprint)
+-   Defined Relations in public functions inside Models
 
 ## Project Timeline
 
 -   All The Necessary Package Installed
+-   Generating Models
 
 ## Laravel Sponsors
 
